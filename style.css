@@ -1,0 +1,196 @@
+
+.navlist{
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    margin-right: 50px;
+    background-color: rgb(40, 232, 40);
+    border-top-left-radius: 10px;
+    border: none;
+    color:white;
+    width:100px;
+    border-bottom-right-radius: 10px;
+}
+.banner {
+    width: 100%;
+    position: relative;
+}
+.banner video{
+    width: 100%;
+}
+.bannerdet{
+    position: absolute;
+     z-index: 1;
+    color:white;
+     margin-top: -300px;
+     align-items: center;
+     margin-left: 100px;
+     font-size:30px;
+
+}
+.bannerdet h1{
+    font-size: 50px;
+}
+.brandname {
+     text-align: center;
+    color:rgb(10, 114, 10);
+    font-size: 40px;
+}
+.container{
+    display: flex;
+    width: 100hv;
+    border: 0px solid black;
+    flex-wrap: wrap;
+    gap: 40px 100px;
+    margin-top: 40px;
+}
+.data-col img{
+    width: 100px;
+    height: 100px;
+    
+}
+.data-col{
+    box-shadow: 2px 2px 2px 2px green;
+    border:1px solid green;
+    height:200px;
+    width: 300px;
+    text-align: center;
+    border-radius: 100px;
+    position: relative;
+    animation: mymove 5s infinite;
+      transition-duration: 1s;
+}
+.data-col:hover{
+    scale: 1.1;
+}
+@keyframes mymove{
+    from{top:0;left:1px;}
+    to{top: 20px;left: 20px;}
+}
+.coursedet{
+    text-align: center;
+    margin-top: 40px;
+    height: 750px;
+    border: 0px solid black;
+    background-color: rgb(194, 241, 194);
+    padding-top: 20px;
+    height: 900px;
+}
+.coursedet {
+    font-size: 18px;
+    font-weight: bold;
+}
+.coursedet h1{
+    padding-top: 20px;
+    font-weight: bold;
+    color: rgb(3, 145, 3);
+}
+.details{
+    display: flex;
+    gap: 50px 80px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+     justify-content: space-evenly;
+}
+.details-col{
+    border: 0px solid black;
+    padding: 20px;
+    height: 280px;
+    width: 280px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 2px 2px 3px 3px green;
+    position: relative;
+    animation: mymove 5s infinite;
+    transition-duration: 1s;
+}
+.details-col:hover{
+    scale:1.1;
+}
+@keyframes mymove{
+    from{top:0;left:1px;}
+    to{top: 20px;left: 20px;}
+}
+
+.amount{
+    background-color: green;
+    color: white;
+    padding: 10px; 
+    width: 280px;
+    border: 0px solid black;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.details-col img{
+    height:80px;
+    width:80px;
+}
+.troops{
+    text-align: center;
+    color: green;
+    margin-top: 40px;
+}
+.troopsdet-col img{
+     height: 200px;
+     width: 200px;
+     border-radius: 100px;
+}
+.troops-row{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.troopsdet-col{
+    position: relative;
+    
+}
+.troopsdet{
+    color: rgb(9, 9, 82);
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    margin-left: 8px;
+    text-align: center;
+    border-radius: 20px;
+}    
+.troopsdet-col img:hover{
+    scale:1.1;
+    box-shadow: 2px 2px 5px 5px rgb(165, 165, 168);
+    border-radius: 100px;
+}
+.troopsdet h3{
+    color: rgb(4, 24, 77);
+    font-size: 20px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    background-color: rgb(181, 220, 178);
+    padding-top: 30px;
+}
+.footer1 h2{
+    color: green;
+}
+.footer1 h5{
+    color: rgba(20, 26, 116, 0.801);
+    padding-top: 10px;
+}
+.footer1 i{
+    color: rgb(13, 13, 97);
+    font-size: 30px;
+    padding: 10px;
+}
+.footer1 h2:hover{
+    text-shadow: 1px 1px rgb(212, 41, 41);
+    scale: 1.1;
+}
+.footer1 i:hover{
+    scale: 1.1;
+    color:green;
+}
+
+
+
